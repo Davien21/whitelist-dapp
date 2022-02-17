@@ -3,7 +3,7 @@ export const abi = [
     inputs: [
       {
         internalType: "uint8",
-        name: "_maxNumberOfWhitelistedAddresses",
+        name: "_maxWhitelistedAddresses",
         type: "uint8",
       },
     ],
@@ -19,7 +19,7 @@ export const abi = [
   },
   {
     inputs: [],
-    name: "maxNumberOfWhitelistedAddresses",
+    name: "maxWhitelistedAddresses",
     outputs: [
       {
         internalType: "uint8",
@@ -32,7 +32,7 @@ export const abi = [
   },
   {
     inputs: [],
-    name: "whitelistedAddressCount",
+    name: "numAddressesWhitelisted",
     outputs: [
       {
         internalType: "uint8",
@@ -64,4 +64,4 @@ export const abi = [
   },
 ];
 export const WHITELIST_CONTRACT_ADDRESS =
-  "0xEfA47B775396EA91A9B92a9be6124804eB6B2042";
+  "0x0e1244b67898CBF1b03213E243b91121BDc2a4D2";
